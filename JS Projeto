@@ -1,0 +1,25 @@
+<SCRIPT LANGUAGE="JavaScript"TYPE="text/javascript">
+decisao = confirm("Clique em um botão!");
+if (decisao){
+alert ("Você clicou no botão OK,\n"+
+"porque foi retornado o valor: "+decisao);
+} else {
+alert ("Você clicou no botão CANCELAR,\n"+
+"porque foi retornado o valor: "+decisao);
+}
+
+<SCRIPT LANGUAGE="JavaScript"TYPE="text/javascript">
+alert ("Esta é uma caixa de diálogo ALERT do JavaScript!")
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript"TYPE="text/javascript">
+alert ("JavaScript \n Caixa de diálogo \n Alert")
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript"TYPE="text/javascript">
+var nome;
+do {
+nome = prompt ("Qual é o seu nome?");
+} while (nome == null || nome == "");
+alert ("Seu nome é "+nome);
+</SCRIPT>
